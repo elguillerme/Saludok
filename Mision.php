@@ -21,7 +21,7 @@
             En SaludOk trabajamos constantemente 
             para que todos nuestros usuarios puedan acceder a todos nuestros servicios y faciliten
             la aprobacion en tramites de autorizaciones, citas Medicas
-            y entrega de medicamentois en general.
+            y entrega de medicamentoos en general.
             </p>
             <a href="#" class="btn"></a>
         </header>
