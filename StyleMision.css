@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align:auto;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.Mision {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 23px;
+    background: #020202;
+    position:fixed;
+    width: 100%;
+    z-index: 100%;
+}
+
+.Mision a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 170%;
+    text-transform: uppercase;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: url(Img/UPS-web.png);
+    background-size: cover;
+}
+
+
