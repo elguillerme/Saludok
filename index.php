@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>despegable</title>
+    <title>Saludok</title>
     <link rel="stylesheet" href="Style.css"> 
 </head>
 <body>
@@ -24,7 +24,7 @@
                     <li><a href="#">Inicio</a>
                     <!-- se realiza la conexion con login y index 2 que es el formulario de registro -->
                         <ul>
-                            <li><a href="Login.php">Iniciar sesion</a></li>
+                            <li><a href="login.php">Iniciar sesion</a></li>
                             <li><a href="index2.php">Registrarse</a></li>
                         </ul>
                     </li>
@@ -200,6 +200,7 @@
     
             </div>
     
-        </section>       
+        </section>  
+     
 </body>
 </html>
