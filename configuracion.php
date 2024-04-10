@@ -5,7 +5,7 @@
   $clientSecret = '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';
   $redirectUri = 'http://localhost/Copia%20de%20Saludok%202/index%20usuario.php';
 
-  // create Client Request to access Google API
+  // Se crea una solicitud de cliente para acceder a la API de google 
   $client = new Google_Client();
   $client->setClientId($clientID);
   $client->setClientSecret($clientSecret);
