@@ -1,4 +1,23 @@
 <!-- Este archivo es la pagina de inicio principal del proyectoo -->
+<?php
+
+session_start();
+
+//Si no existe la variable iniciar sesion ejecuta el codigo "debes iniciar sesion"
+
+if (!isset($_SESSION['usuario'])){
+    echo '
+        <script>
+            alert("Por favor debes iniciar sesión");
+            window.location = "index usuario.php";    
+        </script> 
+    
+    ';
+    session_destroy();
+    die();
+}
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -29,7 +48,7 @@
                     <!-- se realiza la conexion con login y index 2 que es el formulario de registro -->
                         <ul>
                             <li><a href="login.php">Mis datos</a></li>
-                            <li><a href="index2.php">Cerrar Sesiòn</a></li>
+                            <li><a href="cerrar_sesion.php">Cerrar Sesiòn</a></li>
                         </ul>
                     </li>
                     <li><a href="#">Nosotros</a>

@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,19 +11,21 @@
   <title>Login</title>
 </head>
 <body>
-  <div class="contenedor">
+
+    <div class="contenedor">
     <!-- <div class="imagen"> -->
       <img src="imagenes/UPS-web.png" alt="">
     <!-- </div>  -->
     <div class="formulario">
+ <form action="login_usuario_be.php" method= "POST">
       <h2>Iniciar sesión</h2>
       <div class="email">
         <label>Correo Electronico</label>
-        <input type="text" name="email" id="email" placeholder="Email">
+        <input type="text" name="email" id="email" placeholder="email">
       </div>    
       <div class="pass">
         <label>Contraseña</label>
-        <input type="password" name="pass" id="pass" placeholder="Password">
+        <input type="password" name="pass" id="pass" placeholder="contraseña">
       </div>    
 
       <div class="btn">
@@ -30,8 +36,7 @@
          <?php require ('autentificacion.php')?>
         <a href="<?php echo $client->createAuthUrl() ?>">Iniciar sesión con Google</a>
       </div>
-    </div>  
-  </div>
-  <script src="validar.js"></script>
+   <script src="validar.js"></script>
+ </form>
 </body>
 </html>
