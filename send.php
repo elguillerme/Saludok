@@ -21,7 +21,7 @@ if(isset($_POST['send'])) {
             ?>
             <h3 class="ok">Tu registro se ha completado</h3>
         <?php    
-        } else {
+        } else {    
             ?>
             <h3 class="bad">Ocurrio un error</h3>
              <?php

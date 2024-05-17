@@ -1,9 +1,9 @@
 <?php
   require_once 'vendor/autoload.php';
 
-  $clientID = '809959953989-oig8lp6936qh6r6ltu96rd9mlpjifa38.apps.googleusercontent.com';
-  $clientSecret = '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';
-  $redirectUri = 'http://localhost/Copia%20de%20Saludok%202/index%20usuario.php';
+  $clientID = '269838572679-ekkklc7ga89sl9cmjki7d08iot2t7hqd.apps.googleusercontent.com';
+  $clientSecret = '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';
+  $redirectUri = 'http://localhost/Saludok/index%20usuario.php';
 
   // Se crea una solicitud de cliente para acceder a la API de google 
   $client = new Google_Client();

@@ -1,7 +1,3 @@
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +7,6 @@
   <title>Login</title>
 </head>
 <body>
-
     <div class="contenedor">
     <!-- <div class="imagen"> -->
       <img src="imagenes/UPS-web.png" alt="">
